@@ -1,4 +1,4 @@
-class Ifstatement{  //creating Dowhile class
+class Ifstatement{  //creating Ifstatement class
 public static void main(String[]args) { 
 		
 int x=5;   //variable x, int type
