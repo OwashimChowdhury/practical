@@ -1,4 +1,7 @@
-
+/*
+@author:Owashim chowdhury
+Java program of for loop
+*/
 class Forloop{  //creating Forloop class
 public static void main(String[]args) { 
 		int i=0; //int type variable i is variable name
@@ -8,5 +11,5 @@ public static void main(String[]args) {
 		}
 	System.out.println("sum of 10 natural number is:");
 	System.out.println(i); //output
-}
-}
+}	//end of main method
+}	//end of class
