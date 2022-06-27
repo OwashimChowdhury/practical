@@ -1,4 +1,7 @@
-
+/*
+@author:Owashim chowdhury
+Java program for if else if ladder
+*/
 
 public class Ifelseifladder {   //creating a class
 
@@ -13,8 +16,7 @@ public class Ifelseifladder {   //creating a class
 				}
 				else{
 					System.out.println(name);   //print name
-					}
+				}   //end of else statement
+	}    //end of main method
 
-	}
-
-}
+}       //end of class
