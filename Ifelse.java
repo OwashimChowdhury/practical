@@ -1,4 +1,4 @@
-class Ifelse{  //creating Dowhile class
+class Ifelse{  //creating Ifelse class
 public static void main(String[]args) { 
 		
 int x=5;   //variable x, int type
