@@ -12,11 +12,8 @@ public class AreaOfRectangle {
 	void calculation() {
 		
 		System.out.println(length*width);
-		
-		
 	}
 	
-
 	public static void main(String[] args) {
 		
 		AreaOfRectangle s1=new AreaOfRectangle();
