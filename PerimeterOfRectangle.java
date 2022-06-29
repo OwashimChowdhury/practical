@@ -1,3 +1,7 @@
+/*
+@author:Owashim chowdhury
+Java program to calculate perimeter of rectangle
+*/
 package Owas;
 
 public class PerimeterOfRectangle {
@@ -11,18 +15,18 @@ public class PerimeterOfRectangle {
 		}
 		void calculation() {
 			
-			System.out.println(2*(length+width));
+			System.out.println(2*(length+width));	//logic
 			
 		}
 		
 		public static void main(String[] args) {
 			
-			PerimeterOfRectangle s1=new PerimeterOfRectangle();
-			s1.put(10,5);
+			PerimeterOfRectangle s1=new PerimeterOfRectangle();	//object initialization
+			s1.put(10,5);		//method calling
 			
-			s1.calculation();
-		}
+			s1.calculation();		//method calling
+		}	//end of main method
 
-	}
+	}	//end of class
 	
 
