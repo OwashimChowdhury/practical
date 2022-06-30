@@ -1,9 +1,13 @@
+/*
+@author:Owashim chowdhury
+Java program of parameterized constructor
+*/
 package Owas;
 
 public class ParameterizedConstructor {
 	int id;
 	String name;
-	ParameterizedConstructor(int k, String s){
+	ParameterizedConstructor(int k, String s){		//creating constructor
 		id=k;
 		name=s;
 	}
@@ -14,7 +18,7 @@ public class ParameterizedConstructor {
 
 	public static void main(String[] args) {
 		ParameterizedConstructor rv=new ParameterizedConstructor(55,"Owashim");
-		rv.display();
+		rv.display();		//called method
 		
-	}
-}
+	} 
+}		//end of class
