@@ -1,9 +1,7 @@
 /*
  * @Author:OWASHIM CHOWDHURY
- * 
  * COPY CONSTRUCTOR JAVA PROGRAM
  */
-
 package Owas;
 class Copyconstructor1{
 	private String name= "owashim";
