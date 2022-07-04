@@ -5,7 +5,7 @@
 
 package Owas;
 
-public class FinalVariable {
+public class FinalVariableError {
 	
 	final int age=30;
 	void run() {
