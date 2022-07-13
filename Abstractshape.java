@@ -1,10 +1,14 @@
+/*
+ * @author:Owashim chowdhury
+ * java program of abstract class 
+ */
 package Owas;
 
 abstract class Drawing1{
-	abstract void shape();
-	
+	abstract void shape();	//abstract method
 	
 }
+//creating child class
  class Circle1 extends Drawing1{
 	void shape() {
 		System.out.println("shape is circular");
@@ -25,8 +29,7 @@ public class Abstractshape {
 
 	public static void main(String[] args) {
 		Drawing1 cc=new Circle1();
-		cc.shape();
+		cc.shape();	//calling cycle class method
 		
-	}
-
-}
+	}	//end of main method
+}	//end of class
