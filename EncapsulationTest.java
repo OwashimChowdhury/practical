@@ -1,12 +1,16 @@
+/*
+ * @author:Owashim chowdhury
+ * java program of Encapsulation
+ */
 package Owas;
 
-
 class Account{
-	private String name;
-	private String email;
-	private long account_no;
-	private double ammount;
+	private String name;  //private variable
+	private String email;  //private variable
+	private long account_no;  //private variable
+	private double ammount;  //private variable
 	
+	//applying getter setter method
 	public String getName() {
 		return name;
 	}
@@ -35,15 +39,16 @@ class Account{
 	}
 	
 }
-public class AccountTest {
+public class EncapulationTest {
 
 	public static void main(String[] args) {
+		//creating object
 		Account ac=new Account();
+		//set the value
 		ac.setName("owashim");
 		ac.setEmail("chowdhury@gmail.com");
 		ac.setAccountNo(657687890);
 		ac.setAmmount(50000.0);
-		System.out.println(ac.getName()+" "+ac.getEmail()+" "+ac.getAccountNo()+" "+ac.getAmmount());
+		System.out.println(ac.getName()+" "+ac.getEmail()+" "+ac.getAccountNo()+" "+ac.getAmmount());	//printing
 	}
-
 }
