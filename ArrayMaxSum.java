@@ -1,6 +1,6 @@
 /*
  * author:owashim chowdhury
- * java program to print max,min,sum,average from a array
+ * java program to print max,min,sum,average from an array
  */
 package Array;
 
