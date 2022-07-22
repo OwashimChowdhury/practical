@@ -28,5 +28,5 @@ public class ArrayEvenNo {
     	 System.out.println("even no.s are"+evenno);//printing the even numbers
     }
    
-	}
+}
 }
