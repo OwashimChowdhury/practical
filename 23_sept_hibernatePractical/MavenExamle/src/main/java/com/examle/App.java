@@ -9,7 +9,7 @@ public class App
 {
     public static void main( String[] args )
     {
-    	//scanner object
+    //scanner object
     Scanner sc=new Scanner(System.in);
     
     EmployeeDao emp=new EmployeeDaoimpl();
